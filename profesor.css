@@ -1,0 +1,42 @@
+.instituto { 
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    }
+    #nuevo-profesor {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #285205cc;
+        border-radius: 4px;
+        }
+    #btn-agregar {
+        background-color: #1f3864;
+        color: rgb(180, 175, 107); 
+        border: none;
+         padding: 10px 16px;
+          border-radius: 4px;
+           cursor: pointer;
+        }
+    #lista-profesores {
+         list-style: none;
+        }
+    .profesor {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(24, 145, 161);
+       padding: 12px;
+       margin-bottom: 8px;
+       border-radius: 4px;
+       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .profesor.profesor { 
+        text-decoration: line-through; 
+        color: #42061a;
+    }
+    .profesor button {
+         border: none;
+         background: none;
+         cursor: pointer; 
+         font-size: 16px;
+        }

@@ -1,0 +1,42 @@
+.instituto { 
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    }
+    #nueva-materia {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+    #btn-agregar {
+        background-color: #1f3864;
+        color: white; 
+        border: none;
+         padding: 10px 16px;
+          border-radius: 4px;
+           cursor: pointer;
+        }
+    #lista-materias {
+         list-style: none;
+        }
+    .materia {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(167, 36, 36);
+       padding: 12px;
+       margin-bottom: 8px;
+       border-radius: 4px;
+       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .materia.materia { 
+        text-decoration: line-through; 
+        color: #999;
+    }
+    .materia button {
+         border: none;
+         background: none;
+         cursor: pointer; 
+         font-size: 16px;
+        }

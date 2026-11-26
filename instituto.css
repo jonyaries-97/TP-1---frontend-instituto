@@ -1,0 +1,38 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    background-color: #faf9f4; 
+    color: #2b2b2b;
+}
+
+header {
+      background-color: #1f3864;
+      color: rgb(255, 255, 255);
+       padding: 20px;
+       display: flex;
+        justify-content: space-between;
+         align-items: center;
+    }
+
+    header nav a { 
+        color: rgb(255, 255, 255); 
+        text-decoration: none;
+    }
+
+    main { 
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 0 20px;
+        }
+        
+ footer { 
+     text-align: center; 
+     padding: 20px;
+     color: #6b7280; 
+     font-size: 14px;
+ }

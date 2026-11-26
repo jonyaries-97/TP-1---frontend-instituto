@@ -1,0 +1,42 @@
+.instituto { 
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    }
+    #nuevo-estudiante {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+    #btn-agregar {
+        background-color: #1f3864;
+        color: white; 
+        border: none;
+         padding: 10px 16px;
+          border-radius: 4px;
+           cursor: pointer;
+        }
+    #lista-estudiantes {
+         list-style: none;
+        }
+    .estudiante {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(14, 22, 90);
+       padding: 12px;
+       margin-bottom: 8px;
+       border-radius: 4px;
+       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    .estudiante.estudiante { 
+        text-decoration: line-through; 
+        color: #118023;
+    }
+    .estudiante button {
+         border: none;
+         background: none;
+         cursor: pointer; 
+         font-size: 16px;
+        }
